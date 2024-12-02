@@ -16,7 +16,11 @@ defaults:
 <style>
 /* Styles globaux */
 .slidev-layout {
-  @apply bg-white text-black;
+  @apply bg-white text-black relative;
+  
+  /* Style de base pour tous les textes */
+  font-family: system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
 }
 
 
@@ -47,38 +51,32 @@ defaults:
 
 </style>
 
-
-# Les Frameworks JavaScript
-## Une Réflexion Stratégique
-
-<div class="grid grid-cols-2 gap-8 mt-12">
-  <div>
-    <h3 class="text-xl mb-4">Objectifs</h3>
-    <ul class="!list-none space-y-2">
-      <li>🎯 Comprendre l'évolution des frameworks</li>
-      <li>💡 Analyser les enjeux actuels</li>
-      <li>🔄 Explorer les tendances futures</li>
-      <li>⚖️ Développer un regard critique</li>
-    </ul>
-  </div>
-  
-  <div>
-    <h3 class="text-xl mb-4">Questions clés</h3>
-    <blockquote class="!mt-0">
-      Pourquoi autant de frameworks ? <br>
-      Sont-ils vraiment indispensables aujourd'hui ?
-    </blockquote>
+<div class="flex flex-col items-center justify-center p-30">
+  <div class="text-center space-y-8">
+    <h1 class="text-6xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent px-8">
+      Les Frameworks JavaScript
+    </h1>    
+    <div class="mt-16 space-y-6">
+      <h3 class="text-2xl font-medium text-gray-700">
+        Réflexion autour de l'écosystème des frameworks JavaScript
+      </h3>      
+      <div class="mt-24 text-gray-600 space-y-3">
+        <p class="text-xl">Présenté par</p>
+        <p class="text-2xl font-semibold">Charlot Rodolphe</p>
+        <p class="text-lg font-medium">A2Display</p>
+      </div>
+    </div>
   </div>
 </div>
 
-<div class="absolute bottom-8">
-  <span @click="$slidev.nav.next" class="px-4 py-2 rounded cursor-pointer bg-blue-600 text-white hover:bg-blue-700">
-    Commencer <carbon:arrow-right class="inline"/>
-  </span>
-</div>
+<style>
+.slidev-layout {
+  @apply bg-gradient-to-br from-gray-50 to-gray-100;
+}
+</style>
 
 ---
-src: ./pages/001-explications-frameworks.md
+src: ./pages/01-explications-frameworks.md
 ---
 
 ---

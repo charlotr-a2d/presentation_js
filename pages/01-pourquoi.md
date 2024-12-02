@@ -4,23 +4,26 @@ layout: default
 
 # Introduction
 
-<div class="grid grid-cols-2 gap-4">
+<div class="grid grid-cols-5 gap-3">
 
-<div>
+<div class="col-span-3">
 
 ## Pourquoi parler des frameworks JavaScript ?
 
-- **Omniprésence** : La majorité des sites web modernes en dépendent
-- **Évolution rapide** : Nouveaux frameworks majeurs chaque année
+- **Omniprésence** : Une grande partie des sites / applications web modernes en dépendent
+- **Évolution rapide** : Nouveaux paradigmes chaque année
 - **Enjeux business** : Impact direct sur la productivité et la maintenance
 - **Performance** : Au cœur de l'expérience utilisateur
 
 </div>
 
-<div class="mt-4">
+<v-clicks>
+<div class="col-span-2 mt-4">
 
 ### Question clé
-> "Dans un écosystème saturé de frameworks, comment faire les bons choix ?"
+> "Dans un environnement saturé de frameworks, comment faire les bons choix ?"
+
+<div class="mt-8">
 
 ### Objectifs
 - Comprendre l'évolution
@@ -28,5 +31,9 @@ layout: default
 - Anticiper les tendances
 
 </div>
+
+</div>
+
+</v-clicks>
 
 </div>
