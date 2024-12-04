@@ -2,36 +2,58 @@
 layout: default
 ---
 
-# Les Frameworks Front-End
-
-<div grid="~ cols-2 gap-4">
-<v-clicks>
+# Next.js - Le Full-Stack Moderne
 
 <div>
-  ## React
-  - Composants flexibles
-  - Écosystème riche
-  - Grande communauté
-  - Meta backing
 
-  ## Vue.js
-  - Progressive framework
-  - Courbe d'apprentissage douce
-  - Documentation excellente
+- **SSR (Server-Side Rendering)** : Génère les pages côté serveur à chaque requête, idéal pour le contenu dynamique et le SEO.
+  ```javascript
+  import { GetServerSideProps } from 'next';
+
+  export const getServerSideProps: GetServerSideProps = async () => {
+    const data = await fetchDataFromAPI();
+    return { props: { data } };
+  };
+
+  const Page = ({ data }) => (
+    <div>
+      <h1>Data from Server</h1>
+      <pre>{JSON.stringify(data, null, 2)}</pre>
+    </div>
+  );
+
+  export default Page;
+  ```
 </div>
 
+---
+
+# Next.js - Le Full-Stack Moderne
 <div>
-  ## Angular
-  - Enterprise-ready
-  - Tout-en-un
-  - TypeScript natif
-  - Google backing
 
-  ## Svelte
-  - Compilation optimisée
-  - Pas de runtime
-  - Performance native
+- **SSG (Static Site Generation)** : Génère les pages statiquement au moment du build, offrant des performances optimales.
+  ```javascript
+  import { GetStaticProps } from 'next';
+
+  export const getStaticProps: GetStaticProps = async () => {
+    const data = await fetchDataFromAPI();
+    return { props: { data } };
+  };
+
+  const StaticPage = ({ data }) => (
+    <div>
+      <h1>Static Data</h1>
+      <pre>{JSON.stringify(data, null, 2)}</pre>
+    </div>
+  );
+
+  export default StaticPage;
+  ```
 </div>
 
-</v-clicks>
-</div>
+<style>
+  .slidev-layout {
+    font-size: 0.9em;
+  }
+</style>
+

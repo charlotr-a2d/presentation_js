@@ -2,10 +2,9 @@
 layout: default
 ---
 
-# React - Le Champion du Front-End
+# Angular - La Solution Entreprise
 
 <div>
-<v-click>
 
 - **Router** : Système de routage puissant pour la navigation et le chargement paresseux.
 ```typescript
@@ -23,7 +22,6 @@ const routes: Routes = [
 })
 export class AppRoutingModule {}
 ```
-</v-click>
 </div>
 
 <style>

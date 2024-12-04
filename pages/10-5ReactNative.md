@@ -2,36 +2,36 @@
 layout: default
 ---
 
-# Les Frameworks Front-End
-
-<div grid="~ cols-2 gap-4">
-<v-clicks>
+# React Native - Mobile Cross-Platform
 
 <div>
-  ## React
-  - Composants flexibles
-  - Écosystème riche
-  - Grande communauté
-  - Meta backing
 
-  ## Vue.js
-  - Progressive framework
-  - Courbe d'apprentissage douce
-  - Documentation excellente
+- **Concept Clé : Bridge Natif**  
+  React Native utilise un **bridge** pour la communication entre le code **JavaScript** et les composants **natifs**, permettant une expérience utilisateur fluide et performante.
+
+```javascript
+// Exemple de composant React Native
+import React from 'react';
+import { Text, View, Button } from 'react-native';
+
+export default function App() {
+  return (
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <Text>Bienvenue sur React Native!</Text>
+      <Button title="Cliquez-moi" onPress={() => alert('Bouton cliqué!')} />
+    </View>
+  );
+}
+```
+<v-click>
+
+- **Le petit plus qui fait la différence : Expo**  
+  Expo permet de déployer en utilisant le build sur le cloud
+</v-click>
 </div>
 
-<div>
-  ## Angular
-  - Enterprise-ready
-  - Tout-en-un
-  - TypeScript natif
-  - Google backing
-
-  ## Svelte
-  - Compilation optimisée
-  - Pas de runtime
-  - Performance native
-</div>
-
-</v-clicks>
-</div>
+<style>
+  .slidev-layout {
+    font-size: 0.9em;
+  }
+</style>

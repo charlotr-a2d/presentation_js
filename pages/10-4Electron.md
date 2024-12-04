@@ -2,36 +2,36 @@
 layout: default
 ---
 
-# Les Frameworks Front-End
-
-<div grid="~ cols-2 gap-4">
-<v-clicks>
+# Electron - Applications Desktop
 
 <div>
-  ## React
-  - Composants flexibles
-  - Écosystème riche
-  - Grande communauté
-  - Meta backing
 
-  ## Vue.js
-  - Progressive framework
-  - Courbe d'apprentissage douce
-  - Documentation excellente
+- **Architecture Hybride :** Electron utilise **Chromium** pour le rendu de l'interface utilisateur et **Node.js** pour accéder aux API du système d'exploitation.
+
+```typescript
+// main.js
+const { app, BrowserWindow, ipcMain } = require('electron');
+
+function createWindow() {
+  const win = new BrowserWindow({
+    width: 800,
+    height: 600,
+    webPreferences: {
+      nodeIntegration: true,
+      contextIsolation: false,
+    }
+  });
+
+  win.loadFile('index.html');
+}
+
+app.whenReady().then(createWindow);
+```
+
 </div>
 
-<div>
-  ## Angular
-  - Enterprise-ready
-  - Tout-en-un
-  - TypeScript natif
-  - Google backing
-
-  ## Svelte
-  - Compilation optimisée
-  - Pas de runtime
-  - Performance native
-</div>
-
-</v-clicks>
-</div>
+<style>
+  .slidev-layout {
+    font-size: 0.9em;
+  }
+</style>

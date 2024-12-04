@@ -2,36 +2,39 @@
 layout: default
 ---
 
-# Les Frameworks Front-End
-
-<div grid="~ cols-2 gap-4">
-<v-clicks>
+# Svelte - Le Nouveau Challenger
 
 <div>
-  ## React
-  - Composants flexibles
-  - Écosystème riche
-  - Grande communauté
-  - Meta backing
 
-  ## Vue.js
-  - Progressive framework
-  - Courbe d'apprentissage douce
-  - Documentation excellente
+- **Concept Clé : Compilation vs Runtime**  
+  Svelte se distingue par sa **compilation** qui élimine le besoin d'un **runtime**
+
+  Avantages : Code final plus léger, plus performant, propre
+
+```javascript
+<script>
+  let count = 0;
+  function increment() {
+    count += 1;
+  }
+</script>
+
+<main>
+  <h1>Bienvenue sur Svelte!</h1>
+  <button on:click={increment}>
+    Cliquez-moi : {count}
+  </button>
+</main>
+```
+<v-click>
+
+- **Le petit plus qui fait la différence : Stores intégrés**  
+  Svelte propose des **stores** intégrés pour une gestion d'état réactive et simple.
+</v-click>
 </div>
 
-<div>
-  ## Angular
-  - Enterprise-ready
-  - Tout-en-un
-  - TypeScript natif
-  - Google backing
-
-  ## Svelte
-  - Compilation optimisée
-  - Pas de runtime
-  - Performance native
-</div>
-
-</v-clicks>
-</div>
+<style>
+  .slidev-layout {
+    font-size: 0.9em;
+  }
+</style>

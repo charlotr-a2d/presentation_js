@@ -7,16 +7,18 @@ layout: two-cols
 <v-clicks>
 
 ## Frameworks Légers
-- Svelte
-- Solid.js
-- Preact
-- Lit
+
+**Svelte** : Compile en JavaScript pur, éliminant le Virtual DOM pour des performances optimisées.
+
+**Solid.js** : Réactivité fine-grain, met à jour uniquement les parties nécessaires de l'UI.
+
+**Preact** : Alternative légère à React, conserve l'API avec une empreinte réduite.
 
 ## Build Tools Modernes
-- Vite
-- esbuild
-- Turbopack
-- Rollup
+
+**Vite** : Compilation à la demande, accélère le développement avec des temps de démarrage réduits.
+
+**esbuild** : Bundler ultra-rapide, idéal pour les builds fréquents grâce à sa vitesse.
 
 </v-clicks>
 

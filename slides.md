@@ -23,7 +23,6 @@ defaults:
   line-height: 1.6;
 }
 
-
 .slidev-layout .content-container {
   @apply mx-auto max-w-4xl px-8 py-12;
 }
@@ -44,11 +43,9 @@ defaults:
   @apply space-y-2;
 }
 
-
 .slidev-layout blockquote {
   @apply text-gray-700 italic border-l-4 border-blue-600 pl-4 bg-gray-100 p-4 rounded-r;
 }
-
 </style>
 
 <div class="flex flex-col items-center justify-center p-30">
@@ -161,6 +158,10 @@ src: ./pages/10-6Flutter.md
 
 ---
 src: ./pages/10-7Svelte.md
+---
+
+---
+src: ./pages/13-intro.md
 ---
 
 ---
