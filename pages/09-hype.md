@@ -1,25 +1,35 @@
 ---
-layout: center
+layout: two-cols
 ---
 
-# L'Effet "Hype" et Obsolescence
+<template v-slot:default>
 
-<v-clicks>
+## La Courbe de Hype
+<img src="/images/09-hype.jpg" class="h-80" />
 
-## Cycle de vie des frameworks
+</template>
 
-```mermaid {scale: 0.9}
-timeline
-    2010 : AngularJS Dominant
-    2013 : React Émergent
-    2016 : Angular 2+ Rewrite
-    2020 : Nouveaux Challengers
-```
 
-## Points clés
-- Évolution rapide
-- Choix stratégiques
-- Pérennité technique
-- ROI technologique
+<template v-slot:right>
 
-</v-clicks>
+<v-click>
+
+## Critères de Pérennité
+- Support commercial (Meta, Google)
+- Communauté active (GitHub stars, PRs)
+- Documentation maintenue
+- Adoption entreprise
+Ex : Supabase
+
+</v-click>
+
+<v-click>
+
+## Obsolescence
+- Boilerplates abandonnés
+- AngularJS
+- Meteor.js
+
+</v-click>
+
+</template>

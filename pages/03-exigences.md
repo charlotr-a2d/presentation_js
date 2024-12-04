@@ -2,26 +2,27 @@
 layout: default
 ---
 
-# L'accélération des exigences
+# Les nouveaux défis du web moderne
 
-<div grid="~ cols-2 gap-4">
+<div grid="~ cols-2 gap-6">
 <v-clicks>
 
-<div>
-  ## Applications modernes
-  - Interactivité complexe
-  - Temps réel
-  - État global
-  - Composants réutilisables
-</div>
+## Ce que veulent les utilisateurs
+- Interface intuitive et réactive
+- Temps de chargement rapide
+- Expérience mobile adaptée
 
-<div>
-  ## Contraintes techniques
-  - Performance
-  - SEO
-  - Scalabilité
-  - Expérience utilisateur
-</div>
+## Ce que demandent les entreprises
+- Visibilité SEO maximale (Search Engine Optimization)
+- Temps de développement courts
+- Maintenance facile (Dette technique maîtrisée)
 
 </v-clicks>
 </div>
+
+<v-click>
+
+### 🤔 Comment répondre à tous ces besoins ?
+*Spoiler : C'est là que les frameworks entrent en jeu... mais pourquoi en existe-t-il autant ?*
+
+</v-click>

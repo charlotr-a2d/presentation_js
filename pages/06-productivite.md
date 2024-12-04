@@ -1,41 +1,50 @@
 ---
-layout: two-cols
+layout: default
 ---
 
 # Les Enjeux Aujourd'hui
 
-## Productivité vs Complexité
+## La Balance Productivité-Complexité
 
-<v-clicks>
+<div class="flex gap-4">
 
-### Gains
-- Développement accéléré
-- Outils standardisés
-- Réutilisation du code
-- Tests simplifiés
+<v-click>
+<div class="bg-green-100 p-3 rounded-lg text-sm flex-1">
+<h3 class="text-green-800 text-base"> Forces</h3>
 
-### Pertes
-- Complexité accrue
-- Choix difficiles
-- Courbe d'apprentissage
-- Maintenance complexe
-
-</v-clicks>
-
-::right::
-
-<div class="ml-4">
-<v-clicks>
-
-```mermaid {scale: 0.8}
-graph TD
-    A[Framework] --> B[Productivité]
-    A --> C[Complexité]
-    B --> D[+Rapidité]
-    B --> E[+Standards]
-    C --> F[-Apprentissage]
-    C --> G[-Maintenance]
-```
-
-</v-clicks>
+- **Développement Rapide** : Beaucoup plus rapide
+- **Composants Réutilisables** : DRY (Don't Repeat Yourself) principle
+- **Outils Modernes** : DevTools, Hot Reload
+- **Tests Automatisés** : Jest, Cypress
 </div>
+</v-click>
+
+<v-click>
+<div class="bg-red-100 p-3 rounded-lg text-sm flex-1">
+<h3 class="text-red-800 text-base"> Défis</h3>
+
+- **Configuration** : jusqu'à plusieurs jours
+- **Dépendances** : +100 packages npm
+- **Apprentissage** : 3-6 mois
+- **Dette Technique** : Updates réguliers
+</div>
+</v-click>
+
+<v-click>
+<div class="bg-purple-100 p-3 rounded-lg text-sm flex-1">
+<h3 class="text-purple-800 text-base"> Problématiques </h3>
+
+**Questions clés :**
+1. Quel "coût cognitif" pour l'équipe ?
+2. Quand la dette technique devient-elle trop lourde ?
+3. Une architecture sans framework est-elle viable ?
+</div>
+</v-click>
+
+</div>
+
+<v-click>
+<div class="mt-4 text-gray-800 italic">
+Comment avoir un projet qui permette de recruter quelqu'un pour qu'il soit rapidement efficace ?
+</div>
+</v-click>

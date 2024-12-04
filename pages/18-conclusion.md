@@ -17,15 +17,14 @@ class: text-center
       <li>📱 Reddit (r/javascript, r/webdev)</li>
       <li>🤖 ChatGPT & Claude</li>
       <li>📝 Dev.to</li>
-      <!-- Placeholder pour d'autres sources -->
     </ul>
   </div>
   <div class="text-left">
-    <h3 class="mb-2">Outils recommandés</h3>
+    <h3 class="mb-2">Liens de la présentation</h3>
     <ul class="space-y-2">
-      <li>🔍 <!-- Placeholder outil 1 --></li>
-      <li>📊 <!-- Placeholder outil 2 --></li>
-      <li>⚡️ <!-- Placeholder outil 3 --></li>
+      <li>🔍 https://diapo.a2display.fr</li>
+      <li>📊 https://github.com/charlotr-a2d/presentation_js</li>
+      <li>⚡️ rodolphe.charlot@a2display.fr</li>
     </ul>
   </div>
 </div>

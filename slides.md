@@ -16,7 +16,7 @@ defaults:
 <style>
 /* Styles globaux */
 .slidev-layout {
-  @apply bg-white text-black relative;
+  @apply bg-white text-black relative text-sm;
   
   /* Style de base pour tous les textes */
   font-family: system-ui, -apple-system, sans-serif;
@@ -29,19 +29,19 @@ defaults:
 }
 
 .slidev-layout h1 {
-  @apply text-4xl font-bold mb-12;
+  @apply text-3xl font-bold mb-8;
 }
 
 .slidev-layout h2 {
-  @apply text-3xl font-semibold mb-8;
-}
-
-.slidev-layout h3 {
   @apply text-2xl font-semibold mb-6;
 }
 
+.slidev-layout h3 {
+  @apply text-xl font-semibold mb-4;
+}
+
 .slidev-layout ul {
-  @apply space-y-4;
+  @apply space-y-2;
 }
 
 
@@ -76,11 +76,23 @@ defaults:
 </style>
 
 ---
-src: ./pages/01-explications-frameworks.md
+src: ./pages/00-1presentation.md
 ---
 
 ---
-src: ./pages/01-pourquoi.md
+src: ./pages/00-2plan.md
+---
+
+---
+src: ./pages/01-1explications-frameworks.md
+---
+
+---
+src: ./pages/01-2pourquoi.md
+---
+
+---
+src: ./pages/01-3Javascript.md
 ---
 
 ---
@@ -92,7 +104,11 @@ src: ./pages/03-exigences.md
 ---
 
 ---
-src: ./pages/04-diversite.md
+src: ./pages/04-1diversite.md
+---
+
+---
+src: ./pages/04-2exemple.md
 ---
 
 ---
@@ -100,11 +116,11 @@ src: ./pages/05-recul.md
 ---
 
 ---
-src: ./pages/06-productivite.md
+src: ./pages/06-intropartie2.md
 ---
 
 ---
-src: ./pages/07-fragmentation.md
+src: ./pages/06-productivite.md
 ---
 
 ---
@@ -116,15 +132,35 @@ src: ./pages/09-hype.md
 ---
 
 ---
-src: ./pages/10-frontend.md
+src: ./pages/10-0Intro.md
 ---
 
 ---
-src: ./pages/11-fullstack.md
+src: ./pages/10-1React.md
 ---
 
 ---
-src: ./pages/12-multiplateforme.md
+src: ./pages/10-2Angular.md
+---
+
+---
+src: ./pages/10-3Nextjs.md
+---
+
+---
+src: ./pages/10-4Electron.md
+---
+
+---
+src: ./pages/10-5ReactNative.md
+---
+
+---
+src: ./pages/10-6Flutter.md
+---
+
+---
+src: ./pages/10-7Svelte.md
 ---
 
 ---
@@ -133,14 +169,6 @@ src: ./pages/13-minimalisme.md
 
 ---
 src: ./pages/14-unification.md
----
-
----
-src: ./pages/15-ethique.md
----
-
----
-src: ./pages/16-synthese.md
 ---
 
 ---
